@@ -51,9 +51,9 @@ else:
 @JEBotZ.on(events.NewMessage(pattern="^/start"))
 async def start(event):
     if event.is_private:
-       await event.reply("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻\n\nClick on help to find out how to use me\n\n**@JEBotZ**", 
+       await event.reply("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻\n\nClick on help to find out how to use me\n\n**@RobotTech_official**", 
                          buttons=[[Button.inline("Help", data="help")], 
-                                  [Button.url("Channel", url="https://t.me/Infinity_Bots"), Button.url("Source", url="https://github.com/ImJanindu/AnonymousSenderBot")]])
+                                  [Button.url("Channel", url="https://t.me/RobotTech_official"), Button.url("userbot", url="https://t.me/philips_userbot")]])
        return
     if event.is_group:
        await event.reply("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻") 
