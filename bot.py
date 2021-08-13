@@ -1,5 +1,5 @@
-#    Copyright (C) 2021 - Infinity Bots
-#    This programme is a part of JEBotZ
+#    Copyright (C) 2021 - shubham Kumar
+#    This programme is a part of robot tech
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
@@ -67,7 +67,7 @@ async def _(event):
 @JEBotZ.on(events.callbackquery.CallbackQuery(data="start"))
 async def _(event):
      await event.edit("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻\n\nClick on help to find out how to use me\n\n**@RobotTech_official**", 
-                       buttons=[[Button.inline("Help", data="help")], 
+                       buttons=[[Button.inline("🔸Help🔸", data="help")], 
                                 [Button.url("Channel", url="https://t.me/RobotTech_official"), Button.url("userbot", url="https://t.me/philips_userbot")]])
          
 @JEBotZ.on(events.NewMessage(pattern="^/send ?(.*)"))
@@ -100,6 +100,6 @@ async def caption(event):
       
        
 print("Bot has started!")
-print("Do visit @JEBotZ.")
+print("© Robot Tech .")
 JEBotZ.run_until_disconnected()
   
