@@ -52,7 +52,7 @@ else:
 async def start(event):
     if event.is_private:
        await event.reply("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻\n\nClick on help to find out how to use me\n\n**@RobotTech_official**", 
-                         buttons=[[Button.inline("Help", data="help")], 
+                         buttons=[[Button.inline("🔸Help🔸", data="help")], 
                                   [Button.url("Channel", url="https://t.me/RobotTech_official"), Button.url("userbot", url="https://t.me/philips_userbot")]])
        return
     if event.is_group:
@@ -61,14 +61,14 @@ async def start(event):
  
 @JEBotZ.on(events.callbackquery.CallbackQuery(data="help"))
 async def _(event):
-     await event.edit("**Help 📖**\n\nUsing me you can anonymize the sender and add or change caption of a media file\n\n**Available Commands 🧐**\n\n- /send (reply to media): Anonymize the sender\n- /send (caption) (reply to media): Add or change the caption and anonymize the sender\n\n*⃣ This bot works on both groups and private, but only admins can use the bot in groups\n\n**@JEBotZ**", 
+     await event.edit("**Help 📖**\n\nUsing me you can anonymize the sender and add or change caption of a media file\n\n**Available Commands 🧐**\n\n- /send (reply to media): Anonymize the sender\n- /send (caption) (reply to media): Add or change the caption and anonymize the sender\n\n*⃣ This bot works on both groups and private, but only admins can use the bot in groups\n\n**@RobotTech_official**", 
                         buttons=[[Button.inline("Back", data="start")]])
     
 @JEBotZ.on(events.callbackquery.CallbackQuery(data="start"))
 async def _(event):
-     await event.edit("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻\n\nClick on help to find out how to use me\n\n**@JEBotZ**", 
+     await event.edit("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻\n\nClick on help to find out how to use me\n\n**@RobotTech_official**", 
                        buttons=[[Button.inline("Help", data="help")], 
-                                [Button.url("Channel", url="https://t.me/Infinity_Bots"), Button.url("Source", url="https://github.com/ImJanindu/AnonymousSenderBot")]])
+                                [Button.url("Channel", url="https://t.me/RobotTech_official"), Button.url("userbot", url="https://t.me/philips_userbot")]])
          
 @JEBotZ.on(events.NewMessage(pattern="^/send ?(.*)"))
 async def caption(event):
