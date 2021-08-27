@@ -10,7 +10,8 @@
 
 ### Easy Deploy 🏃‍♂
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ImJanindu/AnonymousSenderBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45" alt="Deploy To Heroku"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/shubham-king/anomouslysender">
+<img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45" alt="Deploy To Heroku"/></a></p>
 
 ### Vars 📙
 
@@ -20,4 +21,4 @@
 
 - [Lonami](https://github.com/LonamiWebs/Telethon) for telethon
 
-<br>🏷 Join [support group](https://t.me/InfinityBots_Support) for any help
+<br>🏷 Join [support group](https://t.me/Robottech_chat) for any help
